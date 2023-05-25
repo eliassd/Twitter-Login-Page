@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(160, 160, 160);
+}
+
+.login{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 44%;
+    height: 560px;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login img{
+    width: 30px;
+    padding: 10px 40px;
+}
+
+.login h1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.opcoes a{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(194, 193, 193);
+    border-radius: 30px;
+    padding: 5px 40px;
+    width: 230px;
+    margin-top: 20px;
+}
+
+.opcoes a:hover{
+    background-color: rgb(239, 248, 250);
+}
+
+.opcoes a img{
+    width: 20px;
+    padding: 5px 15px;
+}
+
+.login input{
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+}
+
+#avancar{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 50px;
+}
+
+#avancar:hover{
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+#esqueceu{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px 50px;
+}
+
+.foot{
+    margin-top: 20px;
+}
+.foot a{
+    text-decoration: none;
+}
